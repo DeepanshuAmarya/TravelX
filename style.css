@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.offer{
+    background-image: url(https://images.unsplash.com/photo-1517196084897-498e0abd7c2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG5hdmJhciUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
+}
+
+ 
+ .header{
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwd2Vic2l0ZSUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .text-area{
+     height: 100vh;   
+     color: white;
+     background: rgba(0, 0, 0, 0.65);
+}
+
+.c-1{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 0;
+    right: 0;
+
+}
+
+.overlay-c{
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    color: white;
+}
+.img-card{
+    height: 45vh;
+}
+.btn-5{
+    background-color: #00c6f2;
+    padding: 0.7rem;
+}
+.title{
+    color: #00c6f2;
+}
+.one{
+    font-size: small;
+}
+.main{
+    color: white;
+}
+   
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+}  
+
+footer{
+    text-align: center;
+    background-color: black;
+    font-size: 1.1rem;
+    color: white;
+    height: 20vh;
+}
+
+
+.input{
+    height: 2.5rem;
+    width: 50vh;
+    border: 2px solid rgb(4, 100, 84);
+    border-radius: 5rem;
+}
+span{
+    color: rgb(12, 133, 133);
+}
+
+@media(max-width:600px){
+    .imag{
+        display: none;
+    }
+}
+
+
+/* body{
+    background-color: #242122;
+}
+.btn-0{
+    background-color: #1d9d8f;
+    padding:0.5rem;
+}
+.navbar-brand{
+    font-family: 'Original Surfer', cursive;
+    font-size: 1.5rem;
+}
+.one{
+    font-size: small;
+}
+.logo{
+    color: #1d9d8f;
+}
+.full{
+    background-color: black;
+}
+.img{
+    height: 30rem;
+    width: 40rem;
+} */
+
+
+ /* background-color: #1d9d8f;
+    font-weight: bold;
+    padding: 0.8rem;
+    border: 1px solid aqua;
+    color: rgba(0,0, 0, 0.7); */
+
+
+
+    .contain{
+        /* background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwd2Vic2l0ZSUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D");
+         */
+       
+     }
